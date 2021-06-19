@@ -43,25 +43,26 @@ body,
 .nav {
   background: #41B4E4;
   color: white;
-  a: white;
+  /* text: white; */
   }
+
+.nav-link{
+  background: #41B4E4;
+  color: white;
+}
 
 a:link {
   color: white;
-  background-color: #41b4e4;
   text-decoration: none;
 }
 
 a:visited {
-  color: white;
   background-color:  #41b4e4;
   text-decoration: none;
-=======
-  color: #d5361f;
 }
 
 a:hover {
-  color: white;
+  color: #555;
   background-color:  #41b4e4;
   text-decoration: underline;
 }
@@ -81,4 +82,15 @@ body {
   color:  #ffffff;
   background: #41b4e4;
 
+}
+
+.br {
+  content: " ";
+  display: block;
+  margin: 50px;
+}
+
+.footerpadding {
+  background-color: #79b3cc;
+  margin: 20px
 }
